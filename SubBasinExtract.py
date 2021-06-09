@@ -440,7 +440,7 @@ def _ProTrans(PrjInfo, XY, TargetCoord=4326):
 if __name__ == "__main__":
     DEM100Path = r"G:\GBEHM_training_materials\data\data\dem15.tif"
     StationPath = r"G:\GBEHM_training_materials\data\data\hy_station.shp"
-    subdata = None
+    subdata = r"G:\GBEHM_training_materials\data\data\subcatchment.dat"
     SearchRadius = 1000
     AccThreshold = 100
     if os.path.exists(r"D:\wsp2"):
